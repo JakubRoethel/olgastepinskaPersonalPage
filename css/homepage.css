@@ -1,10 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&display=swap');
+
+
 .navbar {
-    background: #412666;
-   
+    background: #412766;
 }
 
-.navbar-light .navbar-nav .nav-link, 
+.navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
     color: white;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+}
+
+.start-content {
+    background-image: url(../img/1-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+.button-container {
+    margin-top: 100px;
+}
+
+.btn-custom {
+    background-color: #412766;
+    color: white;
+    font-family:'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.btn-custom:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.btn-start {
+    width: 40%;
+}
+
+.profile-picture {
+    width: 700px;
+    height: 500px;
+    border-radius: 50%;
+}
+#moja-historia {
+    margin-top:50px;
+}
+.text-content{
+    font-family: 'Playfair Display', serif;
+}
+
+.my-story-title {
+    font-weight: 800;
+}
+
+.my-story-text {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #412766;
 }
