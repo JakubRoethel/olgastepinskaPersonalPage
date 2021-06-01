@@ -67,6 +67,7 @@
 }
 #moja-historia {
     margin-top:50px;
+    background-image: linear-gradient(180deg,#f4d6cd 0%,#ffffff 100%);
 }
 .text-content{
     font-family: 'Playfair Display', serif;
