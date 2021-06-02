@@ -84,3 +84,28 @@
 .footer {
     background-color: #412766;
 }
+
+.facebook-icon{
+    color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.instagram-ico {
+    color: white;
+    background: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.youtube-ico {
+    color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer-text {
+    font-family: 'Playfair Display', serif;
+    color: #A698B8;
+}
+

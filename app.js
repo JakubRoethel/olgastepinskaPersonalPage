@@ -1,8 +1,18 @@
-console.log("hello World");
+const numerologyPortrait = document.querySelector(".numerology-portrait");
+const numerologyName = document.querySelector(".numerology-name");
+
+const btnPortrait = document.querySelector(".btn-portrait");
+const btnName = document.querySelector(".btn-name");
 
 
-console.log('Hello from Blazej');
+btnPortrait.addEventListener("click", () => {
+    numerologyPortrait.style.display = "block";
+    numerologyName.style.display = "none";
+});
 
-console.log("Hello test");
+btnName.addEventListener("click", () => {
+    numerologyPortrait.style.display = "none";
+    numerologyName.style.display = "block";
+});
 
-console.log("test2");
+

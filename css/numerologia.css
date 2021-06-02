@@ -1,0 +1,51 @@
+.numerology {
+    background-image: linear-gradient(180deg,#f4d6cd 0%,#ffffff 100%);
+}
+.numerology-wrapper, .numerology-name-wrapper, .btn-container-numerology-name, .numerology-horoscope-wrapper{
+    margin-left: 100px;
+}
+
+.numerology-title {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    color: #412766;
+}
+
+.numerology-subtitle {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #A698B8;
+}
+
+.numerology-text {
+    font-family: 'Playfair Display', serif;
+}
+
+.btn-custom {
+    background-color: #412766;
+    color: white;
+    font-family:'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.btn-custom:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.numerology-portrait , .numerology-name, .numerology-horoscope {
+    background-image:linear-gradient(162deg,#d6cedf 0%,#f4d6cd 100%);
+    display: none;
+}
+
+
+.btn-price{
+    font-size: 15px;
+    padding: 10px;
+}
+
+
