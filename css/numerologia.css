@@ -2,7 +2,11 @@
     background-image: linear-gradient(180deg,#f4d6cd 0%,#ffffff 100%);
 }
 .numerology-wrapper, .numerology-name-wrapper, .btn-container-numerology-name, .numerology-horoscope-wrapper{
-    margin-left: 100px;
+    
+}
+
+.numerology-name-wrapper, .numerology-portrait-wrapper {
+    margin: 0 90px 0 90px;
 }
 
 .numerology-title {
@@ -21,6 +25,8 @@
 
 .numerology-text {
     font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    line-height: 1.8;
 }
 
 .btn-custom {
@@ -37,15 +43,30 @@
     color: white;
 }
 
-.numerology-portrait , .numerology-name, .numerology-horoscope {
+.btn-portrait:focus {
+    background-color: tomato;
+    color: white;
+}
+
+.btn-name:focus {
+    background-color: tomato;
+    color: white;
+}
+
+.numerology-name, .numerology-horoscope {
     background-image:linear-gradient(162deg,#d6cedf 0%,#f4d6cd 100%);
     display: none;
+}
+
+.numerology-portrait {
+    background-image:linear-gradient(162deg,#d6cedf 0%,#f4d6cd 100%);
 }
 
 
 .btn-price{
     font-size: 15px;
     padding: 10px;
+    width: 300px;
 }
 
 
