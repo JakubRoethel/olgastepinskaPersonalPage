@@ -1,11 +1,8 @@
 .numerology {
     background-image: linear-gradient(180deg,#f4d6cd 0%,#ffffff 100%);
 }
-.numerology-wrapper, .numerology-name-wrapper, .btn-container-numerology-name, .numerology-horoscope-wrapper{
-    
-}
 
-.numerology-name-wrapper, .numerology-portrait-wrapper {
+.numerology-name-wrapper, .numerology-portrait-wrapper, .numerology-horoscope-wrapper {
     margin: 0 90px 0 90px;
 }
 
@@ -53,7 +50,7 @@
     color: white;
 }
 
-.numerology-name, .numerology-horoscope {
+.numerology-name, .numerology-horoscope, .numerology-firm {
     background-image:linear-gradient(162deg,#d6cedf 0%,#f4d6cd 100%);
     display: none;
 }
@@ -69,4 +66,97 @@
     width: 300px;
 }
 
+.store-link {
+    color: #412766;
+    text-decoration: none;
+}
 
+.store-link:hover {
+   
+    text-decoration: none;
+    color: rgb(146, 125, 173);
+}
+
+
+@media only screen and (max-width: 780px) {
+    
+    .numerology {
+        padding: 0 !important;
+    }
+
+    .numerology-wrapper {
+        padding-bottom: 50px;
+    }
+
+    .numerology-content, .numerology-name, .numerology-horoscope, .numerology-firm {
+        padding: 0 10px !important;
+    }
+
+    .numerology-title {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+
+    .numerology-portrait-wrapper .numerology-title {
+        font-size: 45px;
+        margin: 15px !important;
+    }
+
+    .numerology-portrait-video, .numerology-portrait-video iframe {
+        height: 200px;
+    }
+
+    .button-container-start-section {
+        margin: 0 0 40px 0;
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .numerology-portrait-wrapper {
+        margin-top: 3rem;
+    }
+    
+
+    .numerology-subtitle {
+        width: 100% !important;
+        padding: 0 0 20px 0;
+    }
+
+    .numerology-name-wrapper, .numerology-portrait-wrapper, .numerology-horoscope-wrapper {
+        margin: 0 0 0 0 !important;
+        padding: 0 10px;
+    }
+
+
+
+    .above-footer {
+        margin: 40px 0 0 0 !important;
+        line-height: 1.5;
+    }
+
+    .footer-wrapper {
+        flex-direction: column !important;
+        width: 100% !important;
+        align-items: center;
+    }
+
+    .contact {
+        margin-bottom: 10px;
+    }
+
+    .triangle-image-reverse {
+       height: 50px;
+       bottom: -1px;
+    }
+
+    .triangle-image-footer {
+        top: -1px;
+    }
+
+
+
+
+
+}

@@ -16,6 +16,7 @@
 }
 
 
+
 .start-content {
     background-image: url(../img/1-4.png);
     background-repeat: no-repeat;
@@ -36,7 +37,7 @@
 }
 
 #sprawdzone-metody {
-    height: 650px;
+    min-height: 650px;
 }
 
 .title {
@@ -119,10 +120,16 @@
     line-height: 1.7;
 }
 
+.footer-section {
+    position: relative;
+}
+
 .footer {
     background-color: #412766;
     position: relative;
 }
+
+
 
 .facebook-icon{
     color: blue;
@@ -175,4 +182,128 @@
 .metody {
     padding: 0 60px;
 }
+
+@media only screen and (max-width: 780px) {
+    .start-content {
+        min-height: 100vh;
+    }
+
+    .start-description {
+        height: auto;
+    }
+
+    .start-content .button-container-start-section {
+        width: 100% !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        
+    }
+
+    .start-content .button-container-start-section .btn-start {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 37px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .start-small-description {
+        width: 100% !important;
+    }
+
+    .footer-wrapper {
+        flex-direction: column !important;
+        width: 100% !important;
+        align-items: center;
+    }
+
+    .contact {
+        margin-bottom: 10px;
+    }
+
+    .triangle-image-reverse {
+       height: 50px;
+       bottom: -1px;
+    }
+
+    .triangle-image-footer {
+        top: 1px;
+        position: relative;
+    }
+
+    .metody {
+        padding: 0 0;
+    }
+
+    .text{
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'Playfair Display', serif;
+        padding: 0 10px;
+    }
+
+    .button-container {
+        margin-top: 50px;
+        background-color: transparent;
+        border-radius: 5px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .btn-custom {
+        border: 1px solid #412766;
+        background: transparent;
+        color: #412766;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    #moja-historia {
+        min-height: 2000px !important;
+        padding-bottom: 100px;
+    }
+
+    .moja-historia {
+        min-height: 2200px !important;
+    }
+
+    .my-story-text {
+        font-size: 20px;
+    }
+
+    .color-panel {
+        height: 100px;
+    }
+
+    .text-content {
+        padding: 0 10px;
+        margin: 0 !important;
+    }
+
+    .my-story-text-main, .text-content-rest {
+        padding: 0 !important;
+        font-size: 20px;
+    }
+
+    .my-story-text {
+        padding: 0 10px !important;
+    }
+
+    .about-me-pic {
+        flex-direction: column;
+    }
+
+    .profile-picture {
+        width: 351px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    
+  }
 
