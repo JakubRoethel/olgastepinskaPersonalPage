@@ -1,0 +1,75 @@
+.blog {
+    padding: 100px 150px 0 150px !important;
+}
+
+.article-container {
+    columns: 3;
+    column-gap: 40px;
+    margin-top: 40px;
+}
+
+
+.post {
+    width: 100%;
+    min-height: 300px;
+    display: inline-block;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    
+}
+
+.post:hover {
+    box-shadow: 0px 2px 18px 0px #d6cedf;
+    transition: box-shadow 300ms ease 0ms;
+}
+
+.post-content {
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: 1px solid #d6d6d6;
+}
+
+.post-img {
+    height: 300px;
+    background: url('https://szkolanumerologii.pl/wp-content/uploads/2021/06/SzkolaNumerologii-blog-15-400x250.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.post-title {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    color: #412666;
+    padding: 15px 20px;
+}
+
+.post-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    padding: 0 20px;
+   
+}
+
+@media only screen and (max-width: 780px) { 
+
+    .blog {
+        padding: 0 0 0 0 !important;
+    }
+
+    .article-container {
+        columns: 1;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px !important;
+    }
+
+    .post {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
